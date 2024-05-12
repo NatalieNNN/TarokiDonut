@@ -1,5 +1,8 @@
 /*Unicode pound sign - &#163 */
 
+* {
+  box-sizing: border-box;
+}
 
 /*font*/
 .arvo-regular {
@@ -26,13 +29,14 @@
   font-style: italic;
 }
 
-
-
 .responsive {
     width: 100%;
     height: auto;
     display: block;
   }
+
+.col-3 {width: 25%;}
+.col-9 {width: 75%;}
 
 #logo{
   border-radius: 50%;
@@ -118,12 +122,20 @@ input{
 }
 
 /*form*/
-form{
-  margin: 20px;
+#form{
+  margin:50px;
+  padding: 20px;
+  background-color: #c89f97;
+  border-radius: 30px;
 }
 
 ::placeholder{
   text-align: left;
+}
+
+#imgStyle{
+  border-radius:150px;
+  margin-left: 100px;
 }
 
 /* Add a background color to the top navigation */
