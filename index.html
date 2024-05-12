@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taroki Donut</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+    <!--fonts-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <!--responsive nav bar-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+
+<body id="bg">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+
+
+    <!--old header buttons
+    <div class="container text-center">
+      <div class="row justify-content-start">
+        <div class="col-3">
+          <br>
+          <h2>Taroki Donut</h2>
+        </div>
+        <div class="col-9 align-self-center ">
+          <a href="lolly.html"><button type="button" class="btn btn-outline-secondary div-button">Donut Lollies</button></a>
+          <button type="button" class="btn btn-outline-secondary div-button">Donnut Tree</button>
+          <button type="button" class="btn btn-outline-secondary div-button">Donut Box Sets</button>
+          <button type="button" class="btn btn-outline-secondary div-button">Party Services</button>
+          <button type="button" class="btn btn-outline-secondary div-button">Contact Us</button>
+        </div>
+      </div>
+    <br>
+    </div>
+  -->
+
+    <!--New Responsive Nav Bar content-->
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Taroki Donut</a>
+      <a href="lolly.html">Lollies</a>
+      <a href="addtocart.html">Cakes</a>
+      <a href="#about">Box Sets</a>
+      <a href="#about">Parties</a>
+      <a href="#about">Workshops</a>
+      <a href="contact.html">Contact Us</a>
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+<!-- old 3 catergories
+    <div class="container text-center">
+        <div class="row align-items-end">
+            
+          <div class="col" >
+            <img src="image\lolly5.png" class="responsive" id="category">
+            <p>Good to send a donut-lolly as a thank you gift to every guest attending your birthday party, wedding, gradutaion or any celebration.</p>
+            <a href="lolly.html"><button type="button" class="btn btn-outline-secondary cat-button">Donut Lollies</button></a>
+          </div>
+
+          <div class="col">
+            <img src="image\cake3.png" class="responsive" id="category">
+            <p>Wonderful to elevate party atmosphere by this cute 3D donut tree. Share the joyful moment of every bite on this tree. </p>
+            <button type="button" class="btn btn-outline-secondary cat-button">Donut Tree</button>
+          </div>
+
+          <div class="col">
+            <img src="image\box14.png" class="responsive" id="category">
+            <p>Don't miss our limited editions in special occasions and festivals. Acceping pre-order of thematic donuts now.</p>
+            <button type="button" class="btn btn-outline-secondary cat-button">Donut Box Set</button>
+          </div>
+        </div>
+      </div>
+    -->
+
+
+
+<!--New card categories-->
+    <div class="row row-cols-1 row-cols-md-3 g-4" id="cardSpace">
+
+      <!---Card #1 -->
+      <div class="col">
+        <div class="card">
+          <img src="image\lolly5.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Donut Lollies</h5>
+            <p class="card-text">Good to send a donut-lolly as a thank you gift to every guest attending your birthday party, wedding, gradutaion or any celebration.</p>
+            <div class="d-grid">
+              <button class="btn btn-outline-secondary" type="button">order now</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!---Card #2 -->
+      <div class="col">
+        <div class="card">
+          <img src="image\cake3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Donut Cakes</h5>
+            <p class="card-text">Wonderful to elevate party atmosphere by this cute 3D donut cake. Share the joyful moment of every bite on this tree. </p>
+            <div class="d-grid">
+              <button class="btn btn-outline-secondary" type="button">order now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!---Card #3 -->
+      <div class="col">
+        <div class="card">
+          <img src="image\box14.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Donut Box Sets</h5>
+            <p class="card-text">Don't miss out our limited editions in X'mas, Easter, Valentine's Day, Mother's day, etc. We offer beautiful donuts in all special days.</p>
+            <div class="d-grid">
+              <button class="btn btn-outline-secondary" type="button">order now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!---Card #4 -->
+      <div class="col">
+        <div class="card">
+          <img src="image\corner11.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Donut parties</h5>
+            <p class="card-text">Looking for glamorous party decorations? Why not set up an eye-catching donut bar whether you're hosting a wedding, birthday party, baby shower, or even just a girl's get together.</p>
+            <div class="d-grid">
+              <button class="btn btn-outline-secondary" type="button">order now</button>
+            </div>
+            </div>
+        </div>
+      </div>
+
+            <!---Card #5 -->
+      <div class="col">
+        <div class="card">
+          <img src="image\workshop.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Donut workshops</h5>
+            <p class="card-text">Enjoy every whisk and splash with your friends or teammates. Book a donut workshop in our studio with all bakery equipment and ingredients ready. Or order a decorating kit for your mini gathering.</p>
+            <div class="d-grid">
+              <button class="btn btn-outline-secondary" type="button">order now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!---Card #6 -->
+      <div class="col">
+        <div class="card">
+          <img src="image\emailList2.png" class="card-img-top" alt="..." id="SubsPhoto">
+          <div class="card-body">
+            <h5 class="card-title">Subscribe Us</h5>
+            <p class="card-text"> Join our email list to be the first to know about our upcoiming exclusive offers.</p>
+          
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Input your email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+            </form>
+
+            <div class="d-grid">
+              <button class="btn btn-outline-secondary" type="button">subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+
+    <!--footer-->
+    <div class="container text-center">
+      <br>
+          <ul>
+            <li>100% made with ingrediens from Japan</li>
+            <li>10% OFF for students, medical staff and journalists</li>
+          </ul>
+      <img src ="image\ig2.png" id="icon">
+      <img src ="image\ws2.png" id="icon">
+      
+    </div>
+
+</body>
+</html>

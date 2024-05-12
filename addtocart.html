@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Donut Cakes</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="stylesheet" href="addtocart.css">
+
+        
+        <!--fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        <!--responsive nav bar-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--Add to cart JS-->
+        <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+            <!--New Responsive Nav Bar content-->
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Taroki Donut</a>
+            <a href="lolly.html">Lollies</a>
+            <a href="addtocart.html">Cakes</a>
+            <a href="#about">Box Sets</a>
+            <a href="#about">Parties</a>
+            <a href="#about">Workshops</a>
+            <a href="contact.html">Contact Us</a>
+    
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        
+        <!--header-->
+        <div class="header">
+            <p class="logo">Donut Cakes</p>
+            <div class="cart"><i class="fa-solid fa-cart-shopping"></i><p id="count">0</p></div>
+        </div>
+
+        <!--container: root(left), sidebar(right)-->
+        <div class="container">
+            <div id="root"></div>
+            <div class="sidebar">
+                <div class="head"><p>My Cart</p></div>
+                <div id="cartItem">Your cart is empty</div>
+                <div class="foot">
+                    <h3>Total</h3>
+                    <h2 id="total">&#163 0.00</h2>
+                </div>
+                <div><button id="payButton">Pay Now</button></div>
+            </div>
+        </div>
+
+        <!--footer-->
+        <div id="footer">
+            <br>
+                <ul>
+                <li>100% made with ingrediens from Japan</li>
+                </ul>
+            <br>
+            <img src ="image\ig2.png" id="icon">
+            <img src ="image\ws2.png" id="icon">
+            
+        </div>
+        
+
+
+        <script src="addtocart.js"></script>
+    </body>
+</html> 
