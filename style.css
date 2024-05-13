@@ -76,6 +76,11 @@ ul {
   margin:5px 0;
 }
 
+#btnOrder{
+  width:100%;
+}
+
+
 #round{
   border-radius: 50px;
 }
