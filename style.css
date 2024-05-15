@@ -242,9 +242,30 @@ input{
     display: block;
     text-align: left;
   }
+  .gallery-wrap {
+    display: grid;
+    flex-direction: none;
+    width: 100%;
+    height: auto;
+  }
+  
+  .item {
+    flex: 1;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: none;
+    
+    &:hover{
+      flex: 7;
+    }
+  }
+  }
 }
 
 /* accordion image gallery for party.html*/
+
 .containerParty{
   padding: 75px 0;
   margin: 0 auto;
