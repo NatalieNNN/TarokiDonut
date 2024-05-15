@@ -1,0 +1,60 @@
+html,body{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .containerParty{
+    padding: 75px 0;
+    margin: 0 auto;
+    width: 1140px;
+  }
+  
+  h1{
+    position: relative;
+    margin-bottom: 45px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 44px;
+    text-transform: uppercase;
+    color: #424242;
+  }
+  
+  .gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70vh;
+  }
+  
+  .item {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 0.8s ease;
+    
+    &:hover{
+      flex: 7;
+    }
+  }
+  
+  .item-1 { 
+    background-image: url('https://i.pinimg.com/564x/f5/cb/3a/f5cb3a708ca6d1a8e865c3c3aa17a5b3.jpg');
+  }
+  
+  .item-2 { 
+    background-image: url('https://i.pinimg.com/564x/90/10/ce/9010ceb4bd78e88a52577ea418c56791.jpg');
+  }
+  
+  .item-3 { 
+    background-image: url('https://i.pinimg.com/564x/ea/5a/fe/ea5afeb24d2613ef392a6049e3df93bf.jpg');
+  }
+  
+  .item-4 { 
+    background-image: url('https://i.pinimg.com/564x/29/2a/80/292a80d64440cf84d716499715471f6d.jpg');
+  }
+  
+  .item-5 { 
+    background-image: url('https://i.pinimg.com/564x/bf/97/95/bf9795672658b0d07fa7264d97e446f1.jpg');
+  }
+  
