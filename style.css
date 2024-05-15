@@ -43,9 +43,8 @@
 }
 
 #category{
-  border-radius: 10%
+  border-radius: 10%;
 }
-
 
 ul {
     list-style-type:none;
@@ -65,6 +64,7 @@ ul {
   border-radius: 30px;
   background-color: #b77a7a;
   border-color: #b77a7a;
+  align-items: center;
 }
 
 #cat-button:hover{
@@ -76,7 +76,7 @@ ul {
   margin:5px 0;
 }
 
-#btnOrder{
+#btnFullWidth{
   width:100%;
 }
 
@@ -111,6 +111,19 @@ input{
   height: auto;
 }
 
+#SubsBoxSet{
+  margin:20px;
+  padding:10px;
+}
+
+#SubsContent{
+  padding:20px;
+  background-color: #d9a4a4;
+}
+
+
+
+
 #intro{
   padding:20px 10px 0px 10px;
   margin: 20px 10px 0px 10px;;
@@ -143,14 +156,37 @@ input{
   margin-left: 100px;
 }
 
-/* Add a background color to the top navigation */
+/*Gallery*/
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1vh;
+  margin-inline: auto;
+  max-width: 40rem;
+  background: #b77a7a;
+  padding: 1vh;
+}
+
+.gallery > img{
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+
+.gallery:has(img:hover) img:not(:hover) {
+  scale: 0.8;
+  opacity: 0.5;
+  filter: grayscale(70%);
+}
+
+/* top navigation */
 .topnav {
   background-color: #b77a7a;
   overflow: hidden;
   width:100%;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   display: block;
@@ -161,13 +197,12 @@ input{
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
-/* Add an active class to highlight the current page */
+/* nav bar - home button */
 .topnav a.active {
   background-color: #898580;
   color: white;
@@ -207,4 +242,4 @@ input{
   }
 }
 
-/*--------------------shopping cart-----------------------------------*/
+
