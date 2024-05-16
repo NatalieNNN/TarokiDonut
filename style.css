@@ -1,4 +1,9 @@
 /*Unicode pound sign - &#163 */
+/*Pink - primary/header: #ea9696
+/*Pink - seconday/body: #ea9696
+/*grey - home button: #898580
+
+
 
 * {
   box-sizing: border-box;
@@ -59,11 +64,11 @@ ul {
 }
 
 #cat-button{
-  margin-top:0;
+  margin-top: 5px;;
   width:100%;
   border-radius: 30px;
-  background-color: #b77a7a;
-  border-color: #b77a7a;
+  background-color: #ea9696;
+  border-color: #ea9696;
   align-items: center;
 }
 
@@ -71,6 +76,22 @@ ul {
   background-color: #483f3f;
   border-color: #483f3f;
 }
+
+
+#cat-button-dark{
+  margin-top: 5px;;
+  width:100%;
+  border-radius: 30px;
+  background-color: #483f3f;
+  border-color: #483f3f;
+  align-items: center;
+}
+
+#cat-button-dark:hover{
+  background-color: #898580;
+  border-color: #898580;
+}
+
 
 .btn{
   margin:5px 0;
@@ -97,7 +118,7 @@ input{
 }
 
 #bg {
-  background-color: rgb(219, 188, 177);
+  background-color: #edd5d5;
   font-family: "Arvo", serif;
 }
 
@@ -125,13 +146,15 @@ input{
 }
 
 #SubsBoxSet{
-  margin:20px;
-  padding:10px;
+  margin: 20px 0px;
+  
 }
 
 #SubsContent{
   padding:20px;
-  background-color: #d9a4a4;
+  background-color: #ea9696;
+  border-radius: 0;
+
 }
 
 
@@ -161,12 +184,17 @@ a, a:hover, a:visited, a:active {
 #form{
   margin:50px;
   padding: 20px;
-  background-color: #c89f97;
-  border-radius: 30px;
+  background-color: #ea9696;
+  border-radius: 5px;
 }
 
 ::placeholder{
   text-align: left;
+}
+
+#formInput{
+  border-radius: 50px;
+  margin-bottom: 10px;
 }
 
 #imgStyle{
@@ -192,7 +220,7 @@ a, a:hover, a:visited, a:active {
   gap: 1vh;
   margin-inline: auto;
   max-width: 40rem;
-  background: #b77a7a;
+  background: #ea9696;
   padding: 1vh;
 }
 
@@ -211,7 +239,7 @@ a, a:hover, a:visited, a:active {
 
 /* top navigation */
 .topnav {
-  background-color: #b77a7a;
+  background-color: #ea9696;
   overflow: hidden;
   width:100%;
 }
