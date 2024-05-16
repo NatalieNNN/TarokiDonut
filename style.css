@@ -105,10 +105,16 @@ input{
   background-color: white;
 }
 
+#pFooter{
+  font-size: small;
+  text-align: center;
+}
+
 #icon{
   width:50px;
   height:auto;
-  margin: 0 20px 20px 0;
+  margin:5px;
+  align-items: center;
 
 }
 
@@ -137,10 +143,15 @@ input{
 }
 
 
-.link {
+.link{
   text-decoration: none;
   color:inherit;
 }
+
+a, a:hover, a:visited, a:active {
+  color: inherit;
+  text-decoration: none;
+ }
 
 #cardSpace{
   margin:20px;
