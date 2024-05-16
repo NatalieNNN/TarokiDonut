@@ -74,6 +74,7 @@ body{
     margin: 10px;
 }
 
+
 /*font*/
 .arvo-regular {
     font-family: "Arvo", serif;
@@ -113,6 +114,18 @@ body{
 
 #footer{
     text-align: center;
+    margin-bottom:20px;
+}
+
+#pFooter{
+    font-size: small;
+    text-align: center;
+  }
+
+#link{
+    text-decoration: underline;
+    color:inherit;
+    font-size: small;
 }
 /* header inside sidebar My-cart*/
 .head{
